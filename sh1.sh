@@ -2,10 +2,10 @@ sudo apt update
 sudo apt install -y openjdk-17-jdk maven nginx #git
 #java -version
 #mvn --version
-mkdir -p /home/roman/app
+#mkdir -p /home/roman/app
 sudo chown -R roman:roman /var/www/app
 cd /home/roman/app
-#git clone https://github.com/sotovdenis/adm.git
+#git clone https://github.com/Roman7595/ad.git
 cd ad
 mvn clean package
 sudo cp target/adminka-0.0.1-SNAPSHOT.jar /var/www/app.jar
